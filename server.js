@@ -25,7 +25,7 @@ app.post('/login', (req, res) => {
 
 console.log(
     'Server is runing on',
-    procces.env.PORT || 3000,
+    process.env.PORT || 3000,
     process.env.IP || '0.0.0.0'
 );
 
