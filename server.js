@@ -1,7 +1,7 @@
 //Usage with backend
 //1. npm init -y
-//2. Install dependencies: npm i expres body-parser
-//3. Run: server node server.js
+//2. Install dependencies: npm i express body-parser
+//3. Run server: node server.js
 
 const express = require('express');
 const bodyParser = require('body-parser');
